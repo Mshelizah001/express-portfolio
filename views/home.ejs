@@ -1,0 +1,61 @@
+<!-- views/home.ejs -->
+<section class="text-center py-5 bg-light">
+  <div class="container">
+    <h1 class="fw-bold mb-3">Hi, I’m Jesse Daniel Mshelizah</h1>
+    <p class="lead mb-4">
+      Welcome to my personal portfolio. I design clean, responsive websites and enjoy solving problems with technology.
+      Explore my projects, learn more about me, and feel free to get in touch.
+    </p>
+
+    <!-- Bootstrap buttons -->
+    <div class="d-flex justify-content-center gap-3">
+      <a href="/projects" class="btn btn-primary btn-lg">
+        <i class="fa-solid fa-rocket me-2"></i>View My Projects
+      </a>
+      <a href="/contact" class="btn btn-outline-dark btn-lg">
+        <i class="fa-regular fa-envelope me-2"></i>Contact Me
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Cards section to show Bootstrap layout -->
+<section class="container py-5">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">UI/UX Design</h5>
+          <p class="card-text">Creating clean and simple user interfaces that enhance user experience.</p>
+          <span class="badge bg-primary">Design</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Web Development</h5>
+          <p class="card-text">Building responsive, dynamic websites using Express, EJS, and Bootstrap.</p>
+          <span class="badge bg-success">Development</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5 class="card-title">Cloud Deployment</h5>
+          <p class="card-text">Hosting my portfolio on Render for public access and scalability.</p>
+          <span class="badge bg-info text-dark">Hosting</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Custom styling -->
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/Gallery/mobile.css" media="(max-width: 599px)">
+<link rel="stylesheet" href="/Gallery/tablet.css" media="(min-width: 600px) and (max-width: 1023px)">
+<link rel="stylesheet" href="/Gallery/desktop.css" media="(min-width: 1024px)">

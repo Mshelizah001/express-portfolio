@@ -1,0 +1,15 @@
+<!-- error.ejs -->
+<section class="container py-5">
+  <h1 class="fw-bold text-danger mb-3"><%= (typeof message !== 'undefined' && message) ? message : 'Error' %></h1>
+  <p class="text-muted">Something went wrong.</p>
+
+  <% if (error && error.status) { %>
+    <p>Status: <span class="badge bg-secondary"><%= error.status %></span></p>
+  <% } %>
+
+  <% if (error && error.stack) { %>
+    <pre class="bg-light p-3 rounded" style="white-space: pre-wrap;"><%= error.stack %></pre>
+  <% } %>
+
+  <a class="btn btn-dark mt-3" href="/">Back to Home</a>
+</section>

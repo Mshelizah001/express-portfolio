@@ -1,0 +1,39 @@
+<!-- views/about.ejs -->
+<section class="container py-5">
+  <div class="card shadow-lg border-0">
+    <div class="card-body text-center">
+      <h2 class="fw-bold mb-4 text-primary">About Me</h2>
+
+      <!-- My photo -->
+      <div class="mb-4">
+        <img src="/img/me.jpg" alt="Jesse Daniel Mshelizah" class="img-fluid rounded-circle shadow-sm" style="max-width: 220px;">
+      </div>
+
+      <!-- Short intro -->
+      <p class="lead mb-4">
+        Hello! My name is <strong>Jesse Daniel Mshelizah</strong>.<br>
+        I am passionate about 
+        <i class="fa-solid fa-pencil-ruler text-primary"></i> <strong>UI/UX Design</strong>, 
+        <i class="fa-solid fa-code text-success"></i> <strong>Web Development</strong>, and 
+        <i class="fa-solid fa-gears text-info"></i> <strong>Technology Management</strong>.<br>
+        I enjoy creating simple, accessible, and user-friendly designs that make life easier for everyone.
+      </p>
+
+      <!-- Introductory video -->
+      <div class="d-flex justify-content-center mb-3">
+        <video controls width="400" poster="/img/me.jpg" class="shadow rounded">
+          <source src="/video/intro.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <p class="text-muted">Thanks for visiting and getting to know a bit about me!</p>
+    </div>
+  </div>
+</section>
+
+<!-- Custom styles -->
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/Gallery/mobile.css" media="(max-width: 599px)">
+<link rel="stylesheet" href="/Gallery/tablet.css" media="(min-width: 600px) and (max-width: 1023px)">
+<link rel="stylesheet" href="/Gallery/desktop.css" media="(min-width: 1024px)">
